@@ -55,3 +55,5 @@ console.log('alerts are not mentioned in the javascript console');
 var questionLastName = prompt('what is your last name? '); // result of prompt is stored into var questionName
 alert('your last name is ' + questionLastName); 
 
+// lesson 9 finish
+console.log('lesson 9 finish')
