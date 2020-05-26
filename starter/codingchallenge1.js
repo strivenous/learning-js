@@ -34,7 +34,7 @@ var averageBMI = (yourBMI + theirBMI) / 2;
 var youHave_moreBMImsg, youHave_equalBMImsg, youHave_lessBMImsg;
 youHave_moreBMImsg = yourName + "'s BMI is higher than " + theirName + "'s.\n" + yourBMI + " vs " + theirBMI;
 youHave_equalBMImsg = "both " + yourName + " and " + theirName + " have the same BMI, which is " + equalBMI;
-youHave_lessBMImsg = theirName + "'s BMI is higher than" + yourName + "'s\n" +  theirBMI + " vs " + yourBMI + "\n average BMI is " + averageBMI;
+youHave_lessBMImsg = theirName + "'s BMI is higher than " + yourName + "'s\n" +  theirBMI + " vs " + yourBMI + "\n average BMI is " + averageBMI;
 
 /* end of spaghetti code 
 
