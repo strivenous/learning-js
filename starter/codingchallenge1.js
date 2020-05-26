@@ -26,8 +26,8 @@ theirHeight = prompt("insert their height in meters: ");
 var yourBMI = yourMass / (yourHeight**2);
 var theirBMI = theirMass / (theirHeight**2);
 // start of spaghetti code
-var youHave_moreBMI = yourBMI > theirBMI;
-var youHave_equalBMI = yourBMI == theirBMI; // equality vs identity
+// var youHave_moreBMI = yourBMI > theirBMI;
+// var youHave_equalBMI = yourBMI == theirBMI; // equality vs identity
 var equalBMI = (yourBMI*2) / (theirBMI*2);
 var averageBMI = (yourBMI + theirBMI) / 2;
 
@@ -45,16 +45,16 @@ message variable names have to be shortened
 */
 
 
-if (youHave_moreBMI === true) {
+if (yourBMI > theirBMI) {
 
     alert(youHave_moreBMImsg)
-} else if (youHave_equalBMI === true) { // we want only it to be true, nothing else that is equal
+} else if (yourBMI == theirBMI) { // we want only it to be true, nothing else that is equal
 
     alert(youHave_equalBMImsg)
 
 
 }
-else if (youHave_moreBMI === false) {
+else if (yourBMI < theirBMI) {
 
     alert(youHave_lessBMImsg)
 
